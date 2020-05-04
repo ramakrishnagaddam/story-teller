@@ -7,9 +7,13 @@ const Volume = require('../models/volume');
 const router = express.Router();
 
 router.get('/', (req, res, next) => {
-    res.status(200).json({
-        message: "Welcome to catageries!"
-    });
+    Category.find({}, function(err, result) {
+    if (err) {
+      res.status(500).send(err);
+    } else {
+      res.status(200).send(result);
+    }
+  });
 });
 
 router.put('/', (req, res, next) => {
