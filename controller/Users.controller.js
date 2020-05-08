@@ -1,6 +1,5 @@
 var mongoose = require('mongoose');
 var Users = require('../model/User.model');
-var Purchase = require('../model/Purchases.model');
 var Volume = require('../model/Volume.model');
 
 let UsersController = {
@@ -26,8 +25,8 @@ let UsersController = {
             .populate({
                 path: "purchases", 
                 populate: {
-                    path: "volumes",
-                    model: "Volume"
+                    path: "stories",
+                    model: "Story"
                 }
             });
             res.status(201).json(user);
