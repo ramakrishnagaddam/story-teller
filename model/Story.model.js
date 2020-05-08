@@ -1,0 +1,16 @@
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+
+module.exports = mongoose.model('Story', Schema({
+    _id: Schema.Types.ObjectId,
+    storyName: String,
+    storyDesc: String,
+    storyImage: String,
+    credits: String,
+    storyURL: String,
+    volume: {
+        required: true,
+        type: Schema.Types.ObjectId,
+        ref: 'Volume'
+    }
+}));
