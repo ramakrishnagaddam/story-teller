@@ -53,7 +53,8 @@ app.get('/stories', StoryController.all);
 app.put('/stories', StoryController.create);
 app.post('/stories', StoryController.update);
 
-app.get('/user', UserController.all);
+app.get('/users', UserController.all);
+app.get('/user', UserController.id);
 app.put('/user', UserController.create);
 app.post('/user', UserController.update);
 app.put('/user-purchase', UserController.purchase);
