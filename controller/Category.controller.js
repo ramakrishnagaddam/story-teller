@@ -17,13 +17,12 @@ let CategoryController = {
     },
     create: async(req, res) => {
         try {    
+            console.log(req.file);
             console.log("Adding new category");
-            var file = fs.readFileSync(req.file.path);
-            var encode_file = file.toString('base64');
             var categoryObject = {
                 "_id": new mongoose.Types.ObjectId(),
                 "categoryName": req.body.categoryName,
-                "categoryImageURL": new Buffer(encode_file, 'base64'),
+                "categoryImageURL": req.file.filename,
                 "categoryDesc": req.body.categoryDesc
             }
             var newCategory = new Category(categoryObject);
@@ -38,7 +37,7 @@ let CategoryController = {
             console.log("Adding new category");
             var categoryObject = {
                 "categoryName": req.body.categoryName,
-                "categoryImageURL": new Buffer(encode_file, 'base64'),
+                "categoryImageURL": req.file.filename,
                 "categoryDesc": req.body.categoryDesc
             }
             await Category.findByIdAndUpdate(req.body._id, categoryObject, {new: true});

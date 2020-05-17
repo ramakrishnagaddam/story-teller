@@ -16,16 +16,14 @@ let StoryController = {
         }
     },
     create: async(req, res) => {
-        try {    
+        try { 
             console.log("Adding new Story");
-            var file = fs.readFileSync(req.file.path);
-            var encode_file = file.toString('base64');
             var storyObject = {
                 "_id": new mongoose.Types.ObjectId(),
                 "storyName": req.body.storyName,
                 "storyDesc": req.body.storyDesc,
                 "credits": req.body.credits,
-                "storyURL": new Buffer(encode_file, 'base64'),
+                "storyURL": req.file.filename,
                 "volume": req.body.volume
             }
 
@@ -55,7 +53,7 @@ let StoryController = {
                 "storyName": req.body.storyName,
                 "storyDesc": req.body.storyDesc,
                 "credits": req.body.credits,
-                "storyURL": new Buffer(encode_file, 'base64'),
+                "storyURL": req.file.filename,
             }
 
             const volume = await Volume.findById(req.body.volume);

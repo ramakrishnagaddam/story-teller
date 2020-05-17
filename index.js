@@ -1,10 +1,15 @@
 var express = require('express');
+var cors = require('cors');
 var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
+const multer = require('multer');
+const upload = multer({ dest: 'uploads/'});
 
+app.use(cors({ origin: "*" }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static('uploads'));
 
 var StoryController = require('./controller/Story.controller');
 var VolumeController = require('./controller/Volume.controller');
@@ -12,8 +17,8 @@ var CategoryController = require('./controller/Category.controller');
 var UserController = require('./controller/Users.controller');
 
 const options = {
-    user: 'appAdmin',
-    pass: 'ZsdW#2134',
+    user: 'dev-admin',
+    pass: 'Dev#2134',
     auth: {
       authdb: 'magic'
     },
@@ -42,16 +47,16 @@ mongoose.connect(uri, options).then(
 );
 
 app.get('/category', CategoryController.all);
-app.put('/category', CategoryController.create);
-app.post('/category', CategoryController.update);
+app.put('/category', upload.single('categoryImageURL'), CategoryController.create);
+app.post('/category', upload.single('categoryImageURL'), CategoryController.update);
 
 app.get('/volume', VolumeController.all);
 app.put('/volume', VolumeController.create);
 app.post('/volume', VolumeController.update);
 
 app.get('/stories', StoryController.all);
-app.put('/stories', StoryController.create);
-app.post('/stories', StoryController.update);
+app.put('/stories', upload.single('storyURL'), StoryController.create);
+app.post('/stories', upload.single('storyURL'), StoryController.update);
 
 app.get('/users', UserController.all);
 app.get('/user', UserController.id);
