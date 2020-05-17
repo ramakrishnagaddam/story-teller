@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 module.exports = mongoose.model('Category', Schema({
     _id: Schema.Types.ObjectId,
     categoryName: String,
-    categoryImageURL: String,
+    categoryImageURL: Buffer,
     categoryDesc: String,
     volume: [{
         required: true,

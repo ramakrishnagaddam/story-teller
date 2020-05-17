@@ -28,7 +28,7 @@ const options = {
     family: 4 // Use IPv4, skip trying IPv6
 };
 
-const uri = "mongodb://<MONGO_DB_HOST>:27017/StoryTeller";
+const uri = "mongodb://127.0.0.1:27017/StoryTeller";
 
 const port = 3000;
 

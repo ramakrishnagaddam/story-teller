@@ -2,6 +2,7 @@ var mongoose = require('mongoose');
 var Category = require('../model/Category.model');
 var Volume = require('../model/Volume.model');
 var Story = require('../model/Story.model');
+var fs = require('fs');
 
 let StoryController = {
     all: async(req, res) => {
@@ -17,13 +18,14 @@ let StoryController = {
     create: async(req, res) => {
         try {    
             console.log("Adding new Story");
+            var file = fs.readFileSync(req.file.path);
+            var encode_file = file.toString('base64');
             var storyObject = {
                 "_id": new mongoose.Types.ObjectId(),
                 "storyName": req.body.storyName,
                 "storyDesc": req.body.storyDesc,
-                "storyImage": req.body.storyImage,
                 "credits": req.body.credits,
-                "storyURL": req.body.storyURL,
+                "storyURL": new Buffer(encode_file, 'base64'),
                 "volume": req.body.volume
             }
 
@@ -47,12 +49,13 @@ let StoryController = {
     update: async(req, res) => {
         try{
             console.log("Update the story");
+            var file = fs.readFileSync(req.file.path);
+            var encode_file = file.toString('base64');
             var storyObject = {
                 "storyName": req.body.storyName,
                 "storyDesc": req.body.storyDesc,
-                "storyImage": req.body.storyImage,
                 "credits": req.body.credits,
-                "storyURL": req.body.storyURL
+                "storyURL": new Buffer(encode_file, 'base64'),
             }
 
             const volume = await Volume.findById(req.body.volume);
