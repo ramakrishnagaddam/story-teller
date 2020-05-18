@@ -4,7 +4,18 @@ var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 const multer = require('multer');
-const upload = multer({ dest: 'uploads/'});
+const path = require('path');
+
+const storage = multer.diskStorage({
+    destination: function(req, file, cb) {
+        console.log('file=>', file);
+        cb(null, path.resolve('uploads/'));
+    },
+    filename: function(req, file, cb) {
+        cb(null, new Date().toISOString().replace(/:/g, '-') + file.originalname);
+    }
+});
+const upload = multer({ storage: storage });
 
 app.use(cors({ origin: "*" }));
 app.use(bodyParser.json());
@@ -17,20 +28,20 @@ var CategoryController = require('./controller/Category.controller');
 var UserController = require('./controller/Users.controller');
 
 const options = {
-    user: 'dev-admin',
+    user: 'dev-user',
     pass: 'Dev#2134',
     auth: {
       authdb: 'magic'
     },
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex: false,
+    useCreateIndex: true,
     useFindAndModify: false,
-    autoIndex: true, // Don't build indexes
-    poolSize: 10, // Maintain up to 10 socket connections
-    serverSelectionTimeoutMS: 5000, // Keep trying to send operations for 5 seconds
-    socketTimeoutMS: 45000, // Close sockets after 45 seconds of inactivity
-    family: 4 // Use IPv4, skip trying IPv6
+    autoIndex: true,
+    poolSize: 10,
+    serverSelectionTimeoutMS: 5000,
+    socketTimeoutMS: 45000,
+    family: 4 
 };
 
 const uri = "mongodb://127.0.0.1:27017/StoryTeller";
