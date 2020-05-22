@@ -21,7 +21,7 @@ let UsersController = {
     },
     id: async(req, res) => {
         try {
-            let user = await Users.find({emailID: req.body.emailID})
+            let user = await Users.find({emailID: req.header('emailID')})
             .populate({
                 path: "purchases", 
                 populate: {
