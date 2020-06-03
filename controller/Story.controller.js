@@ -23,8 +23,8 @@ let StoryController = {
                 "storyName": req.body.storyName,
                 "storyDesc": req.body.storyDesc,
                 "credits": req.body.credits,
-		"duration": req.body.duration,
-                "storyURL": req.body.storyURL,
+		        "duration": req.body.duration,
+                "storyURL": req.file.filename,
                 "volume": req.body.volume
             }
 
@@ -74,6 +74,14 @@ let StoryController = {
                 res.status(201).json(storyObject);
             }
         }catch(err) {
+            res.status(500).json(err);
+        }
+    },
+    upload: async(req, res) => {
+        try { 
+            console.log(req.file);
+            res.status(201).json(req.file.filename);
+        } catch(err) {
             res.status(500).json(err);
         }
     }
