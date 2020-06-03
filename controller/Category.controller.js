@@ -47,7 +47,7 @@ let CategoryController = {
         }catch(err) {
             res.status(500).json(err);
         }
-    }
+    },
 
     refresh: async(req, res) => {
         try{
