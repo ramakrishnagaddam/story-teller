@@ -55,24 +55,23 @@ let CategoryController = {
             let category = await Category.find({}).populate({path: "volume"}); 
            
             for (let i = 0; i < category.length; i++) {		
-		let volumes = [];
+		        let volumes = [];
                 let volumeLst = category[i].volume;
-		category[i].volume = [];
+		        category[i].volume = [];
                 for (let j = 0; j < volumeLst.length; j++) { 
                     let stories = [];
-		    let volumeData = await Volume.findById(volumeLst[j]._id);
-    		    volumeData.stories = [];
-		    let storyLst = volumeLst[j].stories;
-		    for (let k = 0; k < storyLst.length; k++) { 
+		            let volumeData = await Volume.findById(volumeLst[j]._id);
+    		        volumeData.stories = [];
+		            let storyLst = volumeLst[j].stories;
+		            for (let k = 0; k < storyLst.length; k++) { 
                         let storyData = await Story.findById(storyLst[k]); 
-			volumeData.stories.push(storyData);
+			            volumeData.stories.push(storyData);
                     } 
-		    volumeData.save();
-		    category[i].volume.push(volumeData);
-		}
+		            volumeData.save();
+		            category[i].volume.push(volumeData);
+		        }
                 category[i].save();
             }
-    
             res.status(200).json(category);
         } catch(err) {
             res.status(500).json(err);
