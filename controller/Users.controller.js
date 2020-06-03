@@ -42,9 +42,14 @@ let UsersController = {
                 "emailID": req.body.emailID,
                 "credits": 0
             }
-            var newUser = new Users(userObject);
-            await newUser.save();
-            res.status(201).json(newUser);
+     	    let user = await Users.find({emailID: req.body.emailID});
+            if(user === null) {
+	    	var newUser = new Users(userObject);
+            	await newUser.save();
+            	res.status(201).json(newUser);
+	    } else {
+		res.status(400).json({ "message": "User Already exists" });
+	    }
         } catch(err) {
             res.status(500).json(err);
         }

@@ -1675,3 +1675,23 @@ RangeNotSatisfiableError: Range Not Satisfiable
 Getting all the Categories
 App is running on port  3000
 MongoDB Connected successfully!
+App is running on port  3000
+MongoDB Connected successfully!
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+App is running on port  3000
+MongoDB Connected successfully!
+Adding new user
+Getting all the Categories
+Getting all the Categories
+[
+  {
+    purchases: [],
+    _id: 5ed75983133a25349774afcd,
+    emailID: 'anandbotq@gmail.com',
+    credits: 0,
+    __v: 0
+  }
+]
