@@ -1,0 +1,1677 @@
+App is running on port  3000
+MongoDB Connected successfully!
+Adding new user
+Adding new user
+Getting all the Categories
+file=> {
+  fieldname: 'categoryImageURL',
+  originalname: 'Chandamama_Kadhalu.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+Error: ENOENT: no such file or directory, open '/home/ec2-user/story-teller/uploads/2020-05-22T14-39-55.698ZChandamama_Kadhalu.jpg'
+file=> {
+  fieldname: 'categoryImageURL',
+  originalname: 'Chandamama_Kadhalu.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+{
+  fieldname: 'categoryImageURL',
+  originalname: 'Chandamama_Kadhalu.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/home/ec2-user/story-teller/uploads',
+  filename: '2020-05-22T14-42-14.615ZChandamama_Kadhalu.jpg',
+  path: '/home/ec2-user/story-teller/uploads/2020-05-22T14-42-14.615ZChandamama_Kadhalu.jpg',
+  size: 129559
+}
+Adding new category
+file=> {
+  fieldname: 'categoryImageURL',
+  originalname: 'Tenali_Ramakrishna_Kadhalu.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+{
+  fieldname: 'categoryImageURL',
+  originalname: 'Tenali_Ramakrishna_Kadhalu.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/home/ec2-user/story-teller/uploads',
+  filename: '2020-05-22T14-45-18.160ZTenali_Ramakrishna_Kadhalu.jpg',
+  path: '/home/ec2-user/story-teller/uploads/2020-05-22T14-45-18.160ZTenali_Ramakrishna_Kadhalu.jpg',
+  size: 134778
+}
+Adding new category
+file=> {
+  fieldname: 'categoryImageURL',
+  originalname: 'Sarada_Kadhalu.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+{
+  fieldname: 'categoryImageURL',
+  originalname: 'Sarada_Kadhalu.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/home/ec2-user/story-teller/uploads',
+  filename: '2020-05-22T14-49-04.332ZSarada_Kadhalu.jpg',
+  path: '/home/ec2-user/story-teller/uploads/2020-05-22T14-49-04.332ZSarada_Kadhalu.jpg',
+  size: 35067
+}
+Adding new category
+file=> {
+  fieldname: 'categoryImageURL',
+  originalname: 'Chinna_Kadhalu.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+{
+  fieldname: 'categoryImageURL',
+  originalname: 'Chinna_Kadhalu.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/home/ec2-user/story-teller/uploads',
+  filename: '2020-05-22T14-52-12.559ZChinna_Kadhalu.jpg',
+  path: '/home/ec2-user/story-teller/uploads/2020-05-22T14-52-12.559ZChinna_Kadhalu.jpg',
+  size: 10159
+}
+Adding new category
+file=> {
+  fieldname: 'categoryImageURL',
+  originalname: 'Neethi_Kadhalu.jpeg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+{
+  fieldname: 'categoryImageURL',
+  originalname: 'Neethi_Kadhalu.jpeg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/home/ec2-user/story-teller/uploads',
+  filename: '2020-05-22T14-53-51.801ZNeethi_Kadhalu.jpeg',
+  path: '/home/ec2-user/story-teller/uploads/2020-05-22T14-53-51.801ZNeethi_Kadhalu.jpeg',
+  size: 14851
+}
+Adding new category
+file=> {
+  fieldname: 'categoryImageURL',
+  originalname: 'Chitti_Paapaayila_Paatalu.jpeg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+{
+  fieldname: 'categoryImageURL',
+  originalname: 'Chitti_Paapaayila_Paatalu.jpeg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/home/ec2-user/story-teller/uploads',
+  filename: '2020-05-22T14-56-08.304ZChitti_Paapaayila_Paatalu.jpeg',
+  path: '/home/ec2-user/story-teller/uploads/2020-05-22T14-56-08.304ZChitti_Paapaayila_Paatalu.jpeg',
+  size: 19871
+}
+Adding new category
+file=> {
+  fieldname: 'categoryImageURL',
+  originalname: 'Peyddha_Kadhalu.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg'
+}
+{
+  fieldname: 'categoryImageURL',
+  originalname: 'Peyddha_Kadhalu.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/home/ec2-user/story-teller/uploads',
+  filename: '2020-05-22T14-58-54.591ZPeyddha_Kadhalu.jpg',
+  path: '/home/ec2-user/story-teller/uploads/2020-05-22T14-58-54.591ZPeyddha_Kadhalu.jpg',
+  size: 133392
+}
+Adding new category
+Adding new Volume
+Adding new Volume
+Adding new Volume
+Adding new Volume
+Adding new Volume
+Adding new Volume
+Adding new Volume
+Adding new Volume
+Adding new Volume
+Getting all the Volumes
+Getting all the Categories
+Getting all the Stories
+file=> {
+  fieldname: 'storyURL',
+  originalname: 'Moorkhula_Jaabitha.mp3',
+  encoding: '7bit',
+  mimetype: 'audio/mpeg'
+}
+file=> {
+  fieldname: 'storyURL',
+  originalname: 'Moorkhula_Jaabitha.mp3',
+  encoding: '7bit',
+  mimetype: 'audio/mpeg'
+}
+App is running on port  3000
+MongoDB Connected successfully!
+Getting all the Stories
+[
+  {
+    purchases: [],
+    _id: 5ec7e11e2a54dc0d64dc7d80,
+    emailID: 'ramakrishnagaddam93@gmail.com',
+    credits: 0,
+    __v: 0
+  }
+]
+App is running on port  3000
+MongoDB Connected successfully!
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new category
+Adding new category
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new category
+Adding new user
+Getting all the Categories
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Adding new user
+Adding new user
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+[
+  {
+    purchases: [ 5ec7ec3a2a54dc0d64dc7d8b ],
+    _id: 5ec7e11e2a54dc0d64dc7d80,
+    emailID: 'ramakrishnagaddam93@gmail.com',
+    credits: 0,
+    __v: 1
+  }
+]
+Error [ValidationError]: Users validation failed: purchases.1: Path `purchases.1` is required.
+    at ValidationError.inspect (/home/ec2-user/story-teller/node_modules/mongoose/lib/error/validation.js:61:24)
+    at formatValue (internal/util/inspect.js:723:31)
+    at inspect (internal/util/inspect.js:289:10)
+    at formatWithOptionsInternal (internal/util/inspect.js:1918:40)
+    at formatWithOptions (internal/util/inspect.js:1802:10)
+    at Object.Console.<computed> (internal/console/constructor.js:304:10)
+    at Object.log (internal/console/constructor.js:314:61)
+    at purchase (/home/ec2-user/story-teller/controller/Users.controller.js:75:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: {
+    'purchases.1': MongooseError [ValidatorError]: Path `purchases.1` is required.
+        at new ValidatorError (/home/ec2-user/story-teller/node_modules/mongoose/lib/error/validator.js:29:11)
+        at validate (/home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1178:13)
+        at /home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1161:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1106:14)
+        at /home/ec2-user/story-teller/node_modules/mongoose/lib/document.js:2378:18
+        at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'purchases.1',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Users validation failed'
+}
+[
+  {
+    purchases: [ 5ec7ec3a2a54dc0d64dc7d8b ],
+    _id: 5ec7e11e2a54dc0d64dc7d80,
+    emailID: 'ramakrishnagaddam93@gmail.com',
+    credits: 0,
+    __v: 1
+  }
+]
+Error [ValidationError]: Users validation failed: purchases.1: Path `purchases.1` is required.
+    at ValidationError.inspect (/home/ec2-user/story-teller/node_modules/mongoose/lib/error/validation.js:61:24)
+    at formatValue (internal/util/inspect.js:723:31)
+    at inspect (internal/util/inspect.js:289:10)
+    at formatWithOptionsInternal (internal/util/inspect.js:1918:40)
+    at formatWithOptions (internal/util/inspect.js:1802:10)
+    at Object.Console.<computed> (internal/console/constructor.js:304:10)
+    at Object.log (internal/console/constructor.js:314:61)
+    at purchase (/home/ec2-user/story-teller/controller/Users.controller.js:75:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: {
+    'purchases.1': MongooseError [ValidatorError]: Path `purchases.1` is required.
+        at new ValidatorError (/home/ec2-user/story-teller/node_modules/mongoose/lib/error/validator.js:29:11)
+        at validate (/home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1178:13)
+        at /home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1161:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1106:14)
+        at /home/ec2-user/story-teller/node_modules/mongoose/lib/document.js:2378:18
+        at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'purchases.1',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Users validation failed'
+}
+[
+  {
+    purchases: [ 5ec7ec3a2a54dc0d64dc7d8b ],
+    _id: 5ec7e11e2a54dc0d64dc7d80,
+    emailID: 'ramakrishnagaddam93@gmail.com',
+    credits: 0,
+    __v: 1
+  }
+]
+Error [ValidationError]: Users validation failed: purchases.1: Path `purchases.1` is required.
+    at ValidationError.inspect (/home/ec2-user/story-teller/node_modules/mongoose/lib/error/validation.js:61:24)
+    at formatValue (internal/util/inspect.js:723:31)
+    at inspect (internal/util/inspect.js:289:10)
+    at formatWithOptionsInternal (internal/util/inspect.js:1918:40)
+    at formatWithOptions (internal/util/inspect.js:1802:10)
+    at Object.Console.<computed> (internal/console/constructor.js:304:10)
+    at Object.log (internal/console/constructor.js:314:61)
+    at purchase (/home/ec2-user/story-teller/controller/Users.controller.js:75:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: {
+    'purchases.1': MongooseError [ValidatorError]: Path `purchases.1` is required.
+        at new ValidatorError (/home/ec2-user/story-teller/node_modules/mongoose/lib/error/validator.js:29:11)
+        at validate (/home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1178:13)
+        at /home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1161:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1106:14)
+        at /home/ec2-user/story-teller/node_modules/mongoose/lib/document.js:2378:18
+        at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'purchases.1',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Users validation failed'
+}
+Adding new user
+Adding new user
+[
+  {
+    purchases: [],
+    _id: 5eca45df6da0d1489eff4d1c,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecc518b6da0d1489eff4d1d,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecc54196da0d1489eff4d1e,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecdf7e96da0d1489eff4d1f,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecdf7f56da0d1489eff4d20,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecdf8196da0d1489eff4d22,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ece73726da0d1489eff4d25,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ece73796da0d1489eff4d26,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  }
+]
+Error [ValidationError]: Users validation failed: purchases.0: Path `purchases.0` is required.
+    at ValidationError.inspect (/home/ec2-user/story-teller/node_modules/mongoose/lib/error/validation.js:61:24)
+    at formatValue (internal/util/inspect.js:723:31)
+    at inspect (internal/util/inspect.js:289:10)
+    at formatWithOptionsInternal (internal/util/inspect.js:1918:40)
+    at formatWithOptions (internal/util/inspect.js:1802:10)
+    at Object.Console.<computed> (internal/console/constructor.js:304:10)
+    at Object.log (internal/console/constructor.js:314:61)
+    at purchase (/home/ec2-user/story-teller/controller/Users.controller.js:75:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: {
+    'purchases.0': MongooseError [ValidatorError]: Path `purchases.0` is required.
+        at new ValidatorError (/home/ec2-user/story-teller/node_modules/mongoose/lib/error/validator.js:29:11)
+        at validate (/home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1178:13)
+        at /home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1161:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1106:14)
+        at /home/ec2-user/story-teller/node_modules/mongoose/lib/document.js:2378:18
+        at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'purchases.0',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Users validation failed'
+}
+Adding new user
+[
+  {
+    purchases: [],
+    _id: 5eca45df6da0d1489eff4d1c,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecc518b6da0d1489eff4d1d,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecc54196da0d1489eff4d1e,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecdf7e96da0d1489eff4d1f,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecdf7f56da0d1489eff4d20,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecdf8196da0d1489eff4d22,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ece73726da0d1489eff4d25,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ece73796da0d1489eff4d26,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ece73a26da0d1489eff4d27,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  }
+]
+Error [ValidationError]: Users validation failed: purchases.0: Path `purchases.0` is required.
+    at ValidationError.inspect (/home/ec2-user/story-teller/node_modules/mongoose/lib/error/validation.js:61:24)
+    at formatValue (internal/util/inspect.js:723:31)
+    at inspect (internal/util/inspect.js:289:10)
+    at formatWithOptionsInternal (internal/util/inspect.js:1918:40)
+    at formatWithOptions (internal/util/inspect.js:1802:10)
+    at Object.Console.<computed> (internal/console/constructor.js:304:10)
+    at Object.log (internal/console/constructor.js:314:61)
+    at purchase (/home/ec2-user/story-teller/controller/Users.controller.js:75:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  errors: {
+    'purchases.0': MongooseError [ValidatorError]: Path `purchases.0` is required.
+        at new ValidatorError (/home/ec2-user/story-teller/node_modules/mongoose/lib/error/validator.js:29:11)
+        at validate (/home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1178:13)
+        at /home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1161:7
+        at Array.forEach (<anonymous>)
+        at ObjectId.SchemaType.doValidate (/home/ec2-user/story-teller/node_modules/mongoose/lib/schematype.js:1106:14)
+        at /home/ec2-user/story-teller/node_modules/mongoose/lib/document.js:2378:18
+        at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'purchases.0',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Users validation failed'
+}
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+App is running on port  3000
+MongoDB Connected successfully!
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+App is running on port  3000
+MongoDB Connected successfully!
+Getting all the Categories
+Update the story
+Getting all the Categories
+App is running on port  3000
+MongoDB Connected successfully!
+Getting all the Stories
+Update the story
+SyntaxError: Unexpected token } in JSON at position 90
+    at JSON.parse (<anonymous>)
+    at parse (/home/ec2-user/story-teller/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/ec2-user/story-teller/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/home/ec2-user/story-teller/node_modules/raw-body/index.js:224:16)
+    at done (/home/ec2-user/story-teller/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ec2-user/story-teller/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:315:20)
+    at endReadableNT (_stream_readable.js:1225:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Getting all the Categories
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+SyntaxError: Unexpected token } in JSON at position 90
+    at JSON.parse (<anonymous>)
+    at parse (/home/ec2-user/story-teller/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/ec2-user/story-teller/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/home/ec2-user/story-teller/node_modules/raw-body/index.js:224:16)
+    at done (/home/ec2-user/story-teller/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ec2-user/story-teller/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:315:20)
+    at endReadableNT (_stream_readable.js:1225:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+SyntaxError: Unexpected token } in JSON at position 90
+    at JSON.parse (<anonymous>)
+    at parse (/home/ec2-user/story-teller/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/ec2-user/story-teller/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/home/ec2-user/story-teller/node_modules/raw-body/index.js:224:16)
+    at done (/home/ec2-user/story-teller/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/ec2-user/story-teller/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:315:20)
+    at endReadableNT (_stream_readable.js:1225:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[
+  {
+    purchases: [],
+    _id: 5eca45df6da0d1489eff4d1c,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecc518b6da0d1489eff4d1d,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecc54196da0d1489eff4d1e,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecdf7e96da0d1489eff4d1f,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecdf7f56da0d1489eff4d20,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ecdf8196da0d1489eff4d22,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ece73726da0d1489eff4d25,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ece73796da0d1489eff4d26,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ece73a26da0d1489eff4d27,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed5186fb3ce547aa65f3e17,
+    emailID: 'ramakrishnagaddam9312@gmail.com',
+    credits: 0,
+    __v: 0
+  }
+]
+Adding new user
+Adding new user
+Adding new user
+Adding new user
+Adding new user
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Stories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+[
+  {
+    purchases: [],
+    _id: 5ece7d246da0d1489eff4d28,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ece7d246da0d1489eff4d29,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ece7d876da0d1489eff4d2a,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ece7d876da0d1489eff4d2b,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed52875b3ce547aa65f3e18,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed52875b3ce547aa65f3e19,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed52875b3ce547aa65f3e1a,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed52875b3ce547aa65f3e1b,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed5288bb3ce547aa65f3e1c,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed5288bb3ce547aa65f3e1d,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed52926b3ce547aa65f3e1e,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed52926b3ce547aa65f3e1f,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed529b5b3ce547aa65f3e20,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed529b5b3ce547aa65f3e21,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed529c2b3ce547aa65f3e22,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed529c2b3ce547aa65f3e23,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed529ccb3ce547aa65f3e24,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed529ccb3ce547aa65f3e25,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed5ff23b3ce547aa65f3e2a,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed5ff23b3ce547aa65f3e2b,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed5ff23b3ce547aa65f3e2c,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed5ff23b3ce547aa65f3e2d,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed6001fb3ce547aa65f3e2e,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed6001fb3ce547aa65f3e2f,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed60241b3ce547aa65f3e30,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed60241b3ce547aa65f3e31,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed603e1b3ce547aa65f3e32,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed603e1b3ce547aa65f3e33,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed60663b3ce547aa65f3e34,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed60663b3ce547aa65f3e35,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed60686b3ce547aa65f3e36,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed60686b3ce547aa65f3e37,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed620d4b3ce547aa65f3e3f,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  },
+  {
+    purchases: [],
+    _id: 5ed620d4b3ce547aa65f3e40,
+    emailID: 'anandjala781@gmail.com',
+    credits: 0,
+    __v: 0
+  }
+]
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+[]
+TypeError: Cannot read property 'purchases' of undefined
+    at purchase (/home/ec2-user/story-teller/controller/Users.controller.js:71:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Getting all the Categories
+Adding new user
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+[]
+TypeError: Cannot read property 'purchases' of undefined
+    at purchase (/home/ec2-user/story-teller/controller/Users.controller.js:71:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+RangeNotSatisfiableError: Range Not Satisfiable
+    at SendStream.error (/home/ec2-user/story-teller/node_modules/send/index.js:270:31)
+    at SendStream.send (/home/ec2-user/story-teller/node_modules/send/index.js:670:19)
+    at onstat (/home/ec2-user/story-teller/node_modules/send/index.js:729:10)
+    at FSReqCallback.oncomplete (fs.js:176:5)
+RangeNotSatisfiableError: Range Not Satisfiable
+    at SendStream.error (/home/ec2-user/story-teller/node_modules/send/index.js:270:31)
+    at SendStream.send (/home/ec2-user/story-teller/node_modules/send/index.js:670:19)
+    at onstat (/home/ec2-user/story-teller/node_modules/send/index.js:729:10)
+    at FSReqCallback.oncomplete (fs.js:176:5)
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Adding new user
+Adding new user
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+Getting all the Categories
+RangeNotSatisfiableError: Range Not Satisfiable
+    at SendStream.error (/home/ec2-user/story-teller/node_modules/send/index.js:270:31)
+    at SendStream.send (/home/ec2-user/story-teller/node_modules/send/index.js:670:19)
+    at onstat (/home/ec2-user/story-teller/node_modules/send/index.js:729:10)
+    at FSReqCallback.oncomplete (fs.js:176:5)
+Getting all the Categories
+App is running on port  3000
+MongoDB Connected successfully!

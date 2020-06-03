@@ -52,28 +52,27 @@ let CategoryController = {
     refresh: async(req, res) => {
         try{
             console.log("Refreshing the Categories with new data");
-            let category = await Category.find({}).populate({path: "volume"});
-
-            let volumes: Volume[] = [];
-            let stories: Story[] = [];
-            for (let i = 0; i < category.length; i++) {
-                console.log(category[i]);
+            let category = await Category.find({}).populate({path: "volume"}); 
+           
+            for (let i = 0; i < category.length; i++) {		
+		let volumes = [];
                 let volumeLst = category[i].volume;
-                for (let j = 0; j < volumeLst.length; j++) {
-                    console.log(volumeLst[j]);
-                    let storyLst = volumeLst[j].stories;
-                    for (let k = 0; k < storyLst.length; k++) {
-                        console.log(storyLst[k]);
-                        let storyData = await Story.findById(storyLst[k]);
-                        stories.push(storyData);
-                        console.log(stories);
-                    }
-                    volumeLst[j].stories = stories;
-                    volumes.push(volumeLst[j]);
-                }
-                category[i].volume = volumes;
+		category[i].volume = [];
+                for (let j = 0; j < volumeLst.length; j++) { 
+                    let stories = [];
+		    let volumeData = await Volume.findById(volumeLst[j]._id);
+    		    volumeData.stories = [];
+		    let storyLst = volumeLst[j].stories;
+		    for (let k = 0; k < storyLst.length; k++) { 
+                        let storyData = await Story.findById(storyLst[k]); 
+			volumeData.stories.push(storyData);
+                    } 
+		    volumeData.save();
+		    category[i].volume.push(volumeData);
+		}
+                category[i].save();
             }
-            category.save();
+    
             res.status(200).json(category);
         } catch(err) {
             res.status(500).json(err);
