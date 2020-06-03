@@ -50,29 +50,34 @@ let CategoryController = {
     }
 
     refresh: async(req, res) => {
-        console.log("Refreshing the Categories with new data");
-        let category = await Category.find({}).populate({path: "volume"});
+        try{
+            console.log("Refreshing the Categories with new data");
+            let category = await Category.find({}).populate({path: "volume"});
 
-        let volumes: Volume[] = [];
-        let stories: Story[] = [];
-        for (let i = 0; i < category.length; i++) {
-            console.log(category[i]);
-            let volumeLst = category[i].volume;
-            for (let j = 0; j < volumeLst.length; j++) {
-                console.log(volumeLst[j]);
-                let storyLst = volumeLst[j].stories;
-                for (let k = 0; k < storyLst.length; k++) {
-                    console.log(storyLst[k]);
-                    let storyData = await Story.findById(storyLst[k]);
-                    stories.push(storyData);
-                    console.log(stories);
+            let volumes: Volume[] = [];
+            let stories: Story[] = [];
+            for (let i = 0; i < category.length; i++) {
+                console.log(category[i]);
+                let volumeLst = category[i].volume;
+                for (let j = 0; j < volumeLst.length; j++) {
+                    console.log(volumeLst[j]);
+                    let storyLst = volumeLst[j].stories;
+                    for (let k = 0; k < storyLst.length; k++) {
+                        console.log(storyLst[k]);
+                        let storyData = await Story.findById(storyLst[k]);
+                        stories.push(storyData);
+                        console.log(stories);
+                    }
+                    volumeLst[j].stories = stories;
+                    volumes.push(volumeLst[j]);
                 }
-                volumeLst[j].stories = stories;
-                volumes.push(volumeLst[j]);
+                category[i].volume = volumes;
             }
-            category[i].volume = volumes;
+            category.save();
+            res.status(200).json(category);
+        } catch(err) {
+            res.status(500).json(err);
         }
-        category.save();
     }
 };
 
