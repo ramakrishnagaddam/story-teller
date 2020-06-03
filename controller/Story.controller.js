@@ -55,7 +55,7 @@ let StoryController = {
                 "storyDesc": req.body.storyDesc,
                 "credits": req.body.credits,
                 "duration": req.body.duration,
-		"storyURL": req.file.filename,
+		        "storyURL": req.file.filename,
             }
 
             const volume = await Volume.findById(req.body.volume);
