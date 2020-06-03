@@ -7,6 +7,7 @@ module.exports = mongoose.model('Story', Schema({
     storyDesc: String,
     credits: String,
     storyURL: String,
+    duration: Number,
     volume: {
         required: true,
         type: Schema.Types.ObjectId,
