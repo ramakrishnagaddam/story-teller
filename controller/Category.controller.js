@@ -4,6 +4,7 @@ var Volume = require('../model/Volume.model');
 var Story = require('../model/Story.model');
 var Upcoming = require('../model/Upcoming.model');
 var fs = require('fs');
+var moment = require('moment');
 
 let CategoryController = {
     all: async(req, res) => {
@@ -85,8 +86,8 @@ let CategoryController = {
             console.log("Adding new Event");
             var upcomingObject = {
                 "upcoming_event": req.body.upcoming_event,
-                "fromDate": req.body.fromDate,
-		        "toDate": req.body.toDate
+                "fromDate": moment(req.body.fromDate).format("MM/DD/YYYY"),
+		        "toDate": moment(req.body.toDate).format("MM/DD/YYYY")
             }
             var upcoming = new Upcoming(upcomingObject);
             await upcoming.save();
@@ -97,9 +98,19 @@ let CategoryController = {
     },
     getAllUpcoming: async(req, res) => {
         try{
-            let upcoming = await Upcoming.find({});
+            let upcoming = await Upcoming.find({ 
+                $or: {
+                    "fromDate": {
+                        $gte: moment(new Date()).format("MM/DD/YYYY")
+                    },
+                    "toDate": {
+                        $gte: moment(new Date()).format("MM/DD/YYYY")
+                    }
+                }
+            });
             res.status(200).json(upcoming);
         }catch(err) {
+            console.log(err);
             res.status(500).json(err);
         }
     }
