@@ -61,6 +61,8 @@ app.get('/category', CategoryController.all);
 app.put('/category', upload.single('categoryImageURL'), CategoryController.create);
 app.post('/category', upload.single('categoryImageURL'), CategoryController.update);
 app.get('/category/refresh', CategoryController.refresh);
+app.put('upcoming', CategoryController.upcoming);
+app.get('upcoming', CategoryController.getAllUpcoming);
 
 app.get('/volume', VolumeController.all);
 app.put('/volume', VolumeController.create);

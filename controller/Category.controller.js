@@ -2,6 +2,7 @@ var mongoose = require('mongoose');
 var Category = require('../model/Category.model');
 var Volume = require('../model/Volume.model');
 var Story = require('../model/Story.model');
+var Upcoming = require('../model/Upcoming.model');
 var fs = require('fs');
 
 let CategoryController = {
@@ -26,7 +27,7 @@ let CategoryController = {
                 "categoryName": req.body.categoryName,
                 "categoryImageURL": req.file.filename,
                 "categoryDesc": req.body.categoryDesc,
-		"subtitle": req.body.subtitle
+		        "subtitle": req.body.subtitle
             }
             var newCategory = new Category(categoryObject);
             await newCategory.save();
@@ -42,7 +43,7 @@ let CategoryController = {
                 "categoryName": req.body.categoryName,
                 "categoryImageURL": req.file.filename,
                 "categoryDesc": req.body.categoryDesc,
-		"subtitle": req.body.subtitle
+		        "subtitle": req.body.subtitle
             }
             await Category.findByIdAndUpdate(req.body._id, categoryObject, {new: true});
             res.status(200).json(req.body);
@@ -76,6 +77,29 @@ let CategoryController = {
             }
             res.status(200).json(category);
         } catch(err) {
+            res.status(500).json(err);
+        }
+    },
+    upcoming: async(req, res) => {
+        try{
+            console.log("Adding new Event");
+            var upcomingObject = {
+                "upcoming_event": req.body.upcoming_event,
+                "fromDate": req.body.fromDate,
+		        "toDate": req.body.toDate
+            }
+            var upcoming = new Upcoming(upcomingObject);
+            await upcoming.save();
+            res.status(200).json(upcoming);
+        }catch(err) {
+            res.status(500).json(err);
+        }
+    },
+    getAllUpcoming: async(req, res) => {
+        try{
+            let upcoming = await Upcoming.find({});
+            res.status(200).json(upcoming);
+        }catch(err) {
             res.status(500).json(err);
         }
     }
