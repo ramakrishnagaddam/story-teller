@@ -25,7 +25,8 @@ let CategoryController = {
                 "_id": new mongoose.Types.ObjectId(),
                 "categoryName": req.body.categoryName,
                 "categoryImageURL": req.file.filename,
-                "categoryDesc": req.body.categoryDesc
+                "categoryDesc": req.body.categoryDesc,
+		"subtitle": req.body.subtitle
             }
             var newCategory = new Category(categoryObject);
             await newCategory.save();
@@ -40,7 +41,8 @@ let CategoryController = {
             var categoryObject = {
                 "categoryName": req.body.categoryName,
                 "categoryImageURL": req.file.filename,
-                "categoryDesc": req.body.categoryDesc
+                "categoryDesc": req.body.categoryDesc,
+		"subtitle": req.body.subtitle
             }
             await Category.findByIdAndUpdate(req.body._id, categoryObject, {new: true});
             res.status(200).json(req.body);

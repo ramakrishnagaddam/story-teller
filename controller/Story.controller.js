@@ -42,6 +42,7 @@ let StoryController = {
                 res.status(201).json(newStory);
             }
         } catch(err) {
+	    console.log(err);
             res.status(500).json(err);
         }
     },

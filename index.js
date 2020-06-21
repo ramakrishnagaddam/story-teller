@@ -68,7 +68,7 @@ app.post('/volume', VolumeController.update);
 
 app.get('/stories', StoryController.all);
 app.put('/stories', upload.single('storyURL'), StoryController.create);
-app.post('/stories', StoryController.update);
+app.post('/stories', upload.single('storyURL'), StoryController.update);
 app.put('/stories/upload', upload.single('storyURL'), StoryController.upload);
 
 app.get('/users', UserController.all);

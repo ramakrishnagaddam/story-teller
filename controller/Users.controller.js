@@ -43,7 +43,7 @@ let UsersController = {
                 "credits": 0
             }
      	    let user = await Users.find({emailID: req.body.emailID});
-            if(user === null) {
+            if(user.length === 0) {
 	    	var newUser = new Users(userObject);
             	await newUser.save();
             	res.status(201).json(newUser);
@@ -71,11 +71,16 @@ let UsersController = {
     purchase: async(req, res) => {
         try{
             let user = await Users.find({emailID: req.body.emailID});
-            console.log(user);
+            console.log(user[0]);
             let volume = await Volume.findById(req.body.volume);
-            user[0].purchases.push(volume);
-            await user[0].save();
-            res.status(200).json(user);
+	    if(volume !== null) {    
+                user[0].purchases.push(volume);
+                await user[0].save();
+                let userData = await Users.find({emailID: req.body.emailID});
+                res.status(200).json(userData);
+            } else {
+                res.status(400).json({message: "Volume doesn't exists!"});
+            }
         }catch(err) {
             console.log(err);
             res.status(500).json(err);
